@@ -21,9 +21,11 @@ Monitoraggio energetico di algoritmi numerici tramite la libreria PAPI
   
 **UTILIZZO**
   - In *src/main* è contenuto un semplice main che esegue IMe prendendo i dati iniziali da linea di comando
-  - In *src/tests* si trovano il programma di test in parallelo e quello sequenziale.
+  - In *src/tests* si trovano i programmi di test di IMe, nella verisone a campionamento ogni 0.1 secondi e a campionamento unico.
   
-  - Per eseguire i programmi di test, si utilizzi lo script *bin/tests/plot.sh* (eseguirlo a vuoto o con "-h" per vedere le opzioni)
-  - Per eseguire TUTTI i test possibili, si utilizzi lo script *bin/tests/ALL_TESTS.sh*
+  - Per eseguire il programma di test di IMe, si utilizzi lo script *bin/tests/plot.sh* (eseguirlo a vuoto o con "-h" per vedere le opzioni)
+  - Per eseguire TUTTI i test nelle varie combinazini possibili, si utilizzi lo script *bin/tests/ALL_TESTS.sh*
      - ATTENZIONE: i test che impostano limiti di potenza sulla CPU ripristinano le impostazioni di default solo al termine dell'esecuzione. Dunque è importante non terminare a metà tali test. Si consulti l'output generato su stdout per monitorare l'andamento.
-	
+  
+  - In *src/utils* sono presenti altri programmi tratti da esempi disponibili nella documentazione di PAPI (questi non monitorano IMe ma codice di esempio):
+     - In *src/utils/papi_high_level* si mostra come si utilizza l'interfaccia ad alto livello di PAPI
