@@ -35,5 +35,5 @@ Monitoraggio energetico di algoritmi numerici tramite la libreria PAPI
      - In *src/utils/papi_low_level* viene mostrato come si utilizzano le funzioni di basso livello di PAPI
      - In *src/utils/powercap* sono presenti programmi che mostrano il funzionamento del componente POWERCAP
      - In *src/utils/rapl* sono presenti programmi che mostrano il funzionamento del componente RAPL
-     - In *src/utils/appio* sono presenti programmi che mostrano il funzionamento del componente APPiO
+     - In *src/utils/appio* sono presenti programmi che mostrano il funzionamento del componente APPIO
 
