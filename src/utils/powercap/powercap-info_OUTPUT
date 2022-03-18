@@ -1,0 +1,54 @@
+enabled: 1
+Zone 0
+  name: package-0
+  enabled: 1
+  max_energy_range_uj: 262143328850
+  energy_uj: 28319027112
+  max_power_range_uw: No such file or directory
+  power_uw: No such file or directory
+  Constraint 0
+    name: long_term
+    power_limit_uw: 255000000
+    time_window_us: 15990784
+    min_power_uw: No such file or directory
+    max_power_uw: 65000000
+    min_time_window_us: No such file or directory
+    max_time_window_us: No such file or directory
+  Constraint 1
+    name: short_term
+    power_limit_uw: 255000000
+    time_window_us: 2440
+    min_power_uw: No such file or directory
+    max_power_uw: 0
+    min_time_window_us: No such file or directory
+    max_time_window_us: No such file or directory
+  Zone 0:0
+    name: core
+    enabled: 0
+    max_energy_range_uj: 262143328850
+    energy_uj: 7580131046
+    max_power_range_uw: No such file or directory
+    power_uw: No such file or directory
+    Constraint 0
+      name: long_term
+      power_limit_uw: 0
+      time_window_us: 976
+      min_power_uw: No such file or directory
+      max_power_uw: No data available
+      min_time_window_us: No such file or directory
+      max_time_window_us: No such file or directory
+  Zone 0:1
+    name: dram
+    enabled: 0
+    max_energy_range_uj: 262143328850
+    energy_uj: 1349801293
+    max_power_range_uw: No such file or directory
+    power_uw: No such file or directory
+    Constraint 0
+      name: long_term
+      power_limit_uw: 0
+      time_window_us: 976
+      min_power_uw: No such file or directory
+      max_power_uw: No data available
+      min_time_window_us: No such file or directory
+      max_time_window_us: No such file or directory

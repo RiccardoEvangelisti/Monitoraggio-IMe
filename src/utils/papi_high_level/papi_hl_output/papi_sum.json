@@ -1,0 +1,14 @@
+{
+    "computation_add": {
+        "Region count": 1,
+        "Real time in s": 0.0,
+        "CPU time in s": 0.0,
+        "IPC": 0.6
+    },
+    "computation_mult": {
+        "Region count": 1,
+        "Real time in s": 0.0,
+        "CPU time in s": 0.0,
+        "IPC": 1.09
+    }
+}

@@ -1,0 +1,24 @@
+Scaled energy measurements:
+rapl:::PACKAGE_ENERGY:PACKAGE0             45.974976 J	(Average Power 26.6W)
+rapl:::DRAM_ENERGY:PACKAGE0                 1.493958 J	(Average Power 0.9W)
+rapl:::PSYS_ENERGY:PACKAGE0                 0.000000 J	(Average Power 0.0W)
+rapl:::PP0_ENERGY:PACKAGE0                 40.079468 J	(Average Power 23.2W)
+
+Energy measurement counts:
+rapl:::PACKAGE_ENERGY_CNT:PACKAGE0            753254	0x0b7e66
+rapl:::DRAM_ENERGY_CNT:PACKAGE0                24477	0x005f9d
+rapl:::PSYS_ENERGY_CNT:PACKAGE0                    0	00000000
+rapl:::PP0_ENERGY_CNT:PACKAGE0                656645	0x0a0505
+
+Scaled Fixed values:
+rapl:::THERMAL_SPEC:PACKAGE0                  65.000 W
+rapl:::MINIMUM_POWER:PACKAGE0                  0.000 W
+rapl:::MAXIMUM_POWER:PACKAGE0                  0.000 W
+rapl:::MAXIMUM_TIME_WINDOW:PACKAGE0            0.000 s
+
+Fixed value counts:
+rapl:::THERMAL_SPEC_CNT:PACKAGE0                 520	0x000208
+rapl:::MINIMUM_POWER_CNT:PACKAGE0                  0	00000000
+rapl:::MAXIMUM_POWER_CNT:PACKAGE0                  0	00000000
+rapl:::MAXIMUM_TIME_WINDOW_CNT:PACKAGE0            0	00000000
+

@@ -1,0 +1,37 @@
+powercap:::NAME:ZONE0                        
+powercap:::NAME:ZONE0_SUBZONE0               
+powercap:::NAME:ZONE0_SUBZONE1               
+
+powercap:::ENABLED:ZONE0                                         1 
+powercap:::ENABLED:ZONE0_SUBZONE0                                0 
+powercap:::ENABLED:ZONE0_SUBZONE1                                0 
+
+powercap:::MAX_ENERGY_RANGE_UJ:ZONE0                             262143.328850 J
+powercap:::MAX_ENERGY_RANGE_UJ:ZONE0_SUBZONE0                    262143.328850 J
+powercap:::MAX_ENERGY_RANGE_UJ:ZONE0_SUBZONE1                    262143.328850 J
+
+powercap:::MAX_POWER_A_UW:ZONE0                                  65.000000 (watts)
+powercap:::MAX_POWER_B_UW:ZONE0                                  0.000000 (watts)
+powercap:::MAX_POWER_A_UW:ZONE0_SUBZONE0                         262143.328850 (watts)
+powercap:::MAX_POWER_A_UW:ZONE0_SUBZONE1                         262143.328850 (watts)
+
+scaled energy measurements:
+powercap:::ENERGY_UJ:ZONE0                                       40.319233 J (Average Power 24.4W)
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                              34.725863 J (Average Power 21.0W)
+powercap:::ENERGY_UJ:ZONE0_SUBZONE1                              1.207150 J (Average Power 0.7W)
+
+long term time window values:
+powercap:::TIME_WINDOW_A_US:ZONE0                                15.990784 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE0_SUBZONE0                       0.000976 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE0_SUBZONE1                       0.000976 (secs)
+
+short term time window values:
+powercap:::TIME_WINDOW_B:ZONE0                                   0.002440 (secs)
+
+long term power limit:
+powercap:::POWER_LIMIT_A_UW:ZONE0                                255.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE0_SUBZONE0                       0.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE0_SUBZONE1                       0.000000 (watts)
+
+short term power limit:
+powercap:::POWER_LIMIT_B_UW:ZONE0                                255.000000 (watts)
