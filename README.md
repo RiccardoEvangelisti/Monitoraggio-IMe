@@ -28,4 +28,12 @@ Monitoraggio energetico di algoritmi numerici tramite la libreria PAPI
      - ATTENZIONE: i test che impostano limiti di potenza sulla CPU ripristinano le impostazioni di default solo al termine dell'esecuzione. Dunque è importante non terminare a metà tali test. Si consulti l'output generato su stdout per monitorare l'andamento.
   
   - In *src/utils* sono presenti altri programmi tratti da esempi disponibili nella documentazione di PAPI (questi non monitorano IMe ma codice di esempio):
-     - In *src/utils/papi_high_level* si mostra come si utilizza l'interfaccia ad alto livello di PAPI
+     - In *src/utils/START_PAPI_PROGRAM/* è presente uno script che facilita la compilazione di un programma PAPI.
+     	- ATTENZIONE: alcuni programmi utilizzano funzioni definite in *papi/src/install/share/papi/testlib/do_loops.c*. La libreria corrisponente è disponibile qui in *src/utils/START_PAPI_PROGRAM/* e bisogna spostarla in *papi/src/install/share/papi/testlib*
+     - In *src/utils/papi_high_level* viene mostrato come si utilizza l'interfaccia ad alto livello di PAPI
+     	- Per semplificare e ordinare l'output si utilizzi *start_papi_program.sh* citato sopra
+     - In *src/utils/papi_low_level* viene mostrato come si utilizzano le funzioni di basso livello di PAPI
+     - In *src/utils/powercap* sono presenti programmi che mostrano il funzionamento del componente POWERCAP
+     - In *src/utils/rapl* sono presenti programmi che mostrano il funzionamento del componente RAPL
+     - In *src/utils/appio* sono presenti programmi che mostrano il funzionamento del componente APPiO
+
